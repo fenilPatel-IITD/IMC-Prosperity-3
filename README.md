@@ -37,9 +37,7 @@ Each round brought a new level of complexity with evolving market dynamics and n
   - Adjusted spread dynamically based on volatility and position
 
 #### 🧠 Manual Part
-- Manually analyzed basic price charts
-- Took advantage of wide spreads and momentum moves
-- Learned basics of reacting to order book shifts
+The manual process for round 1 was fairly simple; we exhaustively tested all possible conversions and chose the most profitable option. This was the least time consuming manual round among all. (Similar to last years Round 2 manual challenge)
 
 ---
 
@@ -53,9 +51,11 @@ Each round brought a new level of complexity with evolving market dynamics and n
   - Implemented safeguards against overexposure
 
 #### 🧠 Manual Part
-- Spotted basket-component price mismatches
-- Mental math and quick reactions were key
-- Game theory questions introduced for adversarial trading setups
+This round stood out as one of the most engaging ones, as it was a direct application of **Game Theory** with a psychological twist. We were asked to pick numbers that were **either multiples of 10 or prime numbers**—a seemingly simple task, but loaded with strategic nuance. I suspected that **73** would be a popular choice, and that hunch was spot-on—it turned out to be the most commonly selected number, as also discussed in this fascinating [Veritasium video](https://youtu.be/d6iQrh2TK98?si=sxUMLYYUGet8a5QO).
+
+After carefully analyzing the risk and reward, we opted for a **safer choice: 90**. Choosing a **second container** was never seriously considered due to the high risk—due to less number of containers to choose from (10). We only found out **after the round ended** that the **maximum gain** from selecting a second container was just **5,000 seashells more than the 50,000 fee**, which confirmed that our conservative approach was the right decision. (Similar to last years Round 3 manual challenge).
+
+We also tried simulating with using some bots to behave like humans, but it was not so successful.
 
 ---
 
@@ -69,9 +69,11 @@ Each round brought a new level of complexity with evolving market dynamics and n
   - Optional: Used Point & Figure based trend logic for signals
 
 #### 🧠 Manual Part
-- Analyzed trend lines and chart formations
-- Reacted to breakouts and fakeouts manually
-- Game theory extended to psychological decision making
+The first bid for the flippers was pretty straightforward—**200 seashells per flipper** was the obvious baseline. But things got interesting with the **second bid**, which we estimated would hover around **285**. To back it up, we even looked into **last year’s Round 4 manual results**, where the average winning bid was typically **2 seashells higher than the optimal answer**.
+
+However, fueled by my recent dive into **behavioral psychology**, I suspected the average might skew toward a **round number like 290**—a common cognitive bias. So, taking a slightly aggressive stance, we went with **292**.
+
+Unfortunately, the crowd played it cooler this time—the actual average ended up being just **1 seashell above the optimal bid**. Close, but not quite. 🤦🏻‍♂️
 
 ---
 
@@ -86,9 +88,9 @@ Each round brought a new level of complexity with evolving market dynamics and n
   - Identified arbitrage via vertical and butterfly spreads
 
 #### 🧠 Manual Part
-- Predicted price movement and its effect on option prices
-- Estimated IV manually from price changes
-- Reacted to volatility spikes and crashes in real-time
+This manual challenge was reminiscent of **Round 2** and **last year’s Round 4**, but with a twist—the moderators **provided the actual data from Round 2**, which made things even more interesting... and unpredictable. With that information out in the open, it became significantly harder to **model participant behavior**, as everyone had access to similar reference points.
+
+Adding to the challenge, our team was juggling **academic commitments** during this period, which limited the time we could dedicate to analyzing patterns or devising a robust strategy. As a result, we weren’t able to go as deep into this round as we had hoped.
 
 ---
 
@@ -102,9 +104,11 @@ Each round brought a new level of complexity with evolving market dynamics and n
   - Managed overall portfolio risk, positions, and liquidation timing
 
 #### 🧠 Manual Part
-- The ultimate test of speed, prediction, and strategy
-- Combined all previous learning: chart reading, arbitrage, game theory
-- Focused on managing risk and reacting to fakeouts
+This round closely mirrored **last year’s Round 5 manual challenge**, so we decided not to spend too much time overanalyzing it. Instead, we took a direct approach—**mapping the severity of this year’s news to last year’s**, assuming a near **1-to-1 correlation** between the items.
+
+For the most part, this strategy held up well. However, two key exceptions—**Red-Flag** and **Solar-Panels**—behaved differently, which led to **lower profits than we had anticipated**.
+
+By this point in the competition, we were also **running on minimal sleep**, which definitely affected our focus and decision-making. 😴
 
 ---
 
